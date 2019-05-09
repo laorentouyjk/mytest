@@ -19,11 +19,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.time.Duration;
 
 
-/**
- * Redis缓存配置类
- * @author szekinwin
- *
- */
+
 @Configuration
 public class RedisConfig extends CachingConfigurerSupport {
 
@@ -74,4 +70,7 @@ public class RedisConfig extends CachingConfigurerSupport {
                 .build();
         return cacheManager;
     }
+
+
+
 }
