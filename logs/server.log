@@ -1,0 +1,153 @@
+17:11:58.202 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 19788 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:11:58.205 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:11:59.103 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:11:59.105 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:11:59.134 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+17:11:59.752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:11:59.768 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:11:59.776 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:11:59.777 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:11:59.915 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:11:59.915 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1676 ms
+17:12:00.480 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:12:00.591 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:12:00.795 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:12:00.808 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:12:00.837 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:12:00.983 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:12:01.012 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:12:01.014 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.148 seconds (JVM running for 4.533)
+17:12:22.512 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:12:22.512 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:12:22.520 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+17:12:38.411 [http-nio-8080-exec-9] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:13:41.156 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 21068 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:13:41.158 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:13:42.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:13:42.098 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:13:42.144 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+17:13:42.918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:13:42.933 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:13:42.951 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:13:42.975 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:13:43.212 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:13:43.212 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1999 ms
+17:13:43.831 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:13:43.948 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:13:44.155 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:13:44.176 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:13:44.210 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:13:44.342 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:13:44.366 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:13:44.369 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.508 seconds (JVM running for 4.705)
+17:13:50.884 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:13:50.884 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:13:50.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+17:20:09.134 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 5688 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:20:09.137 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:20:09.979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:20:09.982 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:20:10.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+17:20:10.681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:20:10.698 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:20:10.713 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:20:10.713 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:20:10.927 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:20:10.927 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1756 ms
+17:20:11.503 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:20:11.610 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:20:11.817 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:20:11.832 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:20:11.863 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:20:11.992 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:20:12.014 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:20:12.017 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.187 seconds (JVM running for 4.359)
+17:20:16.432 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:20:16.432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:20:16.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+17:20:16.547 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:20:31.059 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:23:39.179 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
+17:23:39.193 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:23:42.106 [http-nio-8080-exec-4] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
+17:23:42.121 [http-nio-8080-exec-5] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:23:48.696 [http-nio-8080-exec-6] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
+17:23:48.710 [http-nio-8080-exec-8] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:23:52.832 [http-nio-8080-exec-9] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
+17:23:52.848 [http-nio-8080-exec-10] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:24:26.646 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:24:39.030 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:25:11.626 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:25:18.993 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 21916 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:25:18.996 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:25:19.869 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:25:19.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:25:19.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+17:25:20.604 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:25:20.617 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:25:20.627 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:25:20.627 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:25:20.833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:25:20.833 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1793 ms
+17:25:21.881 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:25:22.025 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:25:22.217 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:25:22.230 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:25:22.259 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:25:22.452 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:25:22.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:25:22.493 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.993 seconds (JVM running for 5.054)
+17:25:22.754 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:25:22.754 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:25:22.760 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+17:25:22.830 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:25:27.884 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:25:31.348 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
+17:25:37.739 [http-nio-8080-exec-4] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:2222
+17:26:47.232 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 13860 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:26:47.240 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:26:48.123 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:26:48.125 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:26:48.154 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+17:26:48.610 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:26:48.626 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:26:48.635 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:26:48.635 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:26:48.912 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:26:48.913 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1625 ms
+17:26:49.637 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:26:49.768 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:26:49.979 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:26:49.995 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:26:50.029 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:26:50.177 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:26:50.203 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:26:50.206 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.372 seconds (JVM running for 4.509)
+17:26:54.015 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:26:54.015 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:26:54.025 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+17:26:54.070 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+17:26:59.703 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:2222
+17:36:50.829 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 25348 (D:\mytest\target\classes started by Mr in D:\mytest)
+17:36:50.858 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+17:36:51.678 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:36:51.680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+17:36:51.710 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+17:36:52.178 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:36:52.191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:36:52.199 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:36:52.199 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+17:36:52.327 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:36:52.327 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1431 ms
+17:36:52.887 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+17:36:53.001 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:36:53.200 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+17:36:53.215 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+17:36:53.246 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+17:36:53.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:36:53.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:36:53.401 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 2.955 seconds (JVM running for 4.052)
+17:37:12.776 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:37:12.776 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:37:12.785 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+17:37:12.832 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
