@@ -22,7 +22,7 @@ public class SocketTopic {
     @ApiOperation(value = "发送订阅消息")
     @RequestMapping(value = "/sendMessage",method = RequestMethod.POST)
     public void  SendMessage(){
-        simpMessagingTemplate.convertAndSend("/topic/20","发送消息");
+        simpMessagingTemplate.convertAndSend("/topic/20","aa");
     }
 
 
