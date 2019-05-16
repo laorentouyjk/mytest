@@ -1,153 +1,184 @@
-17:11:58.202 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 19788 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:11:58.205 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:11:59.103 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:11:59.105 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:11:59.134 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-17:11:59.752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:11:59.768 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:11:59.776 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:11:59.777 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:11:59.915 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:11:59.915 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1676 ms
-17:12:00.480 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:12:00.591 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:12:00.795 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:12:00.808 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:12:00.837 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:12:00.983 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:12:01.012 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:12:01.014 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.148 seconds (JVM running for 4.533)
-17:12:22.512 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:12:22.512 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:12:22.520 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
-17:12:38.411 [http-nio-8080-exec-9] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:13:41.156 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 21068 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:13:41.158 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:13:42.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:13:42.098 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:13:42.144 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
-17:13:42.918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:13:42.933 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:13:42.951 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:13:42.975 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:13:43.212 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:13:43.212 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1999 ms
-17:13:43.831 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:13:43.948 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:13:44.155 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:13:44.176 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:13:44.210 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:13:44.342 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:13:44.366 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:13:44.369 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.508 seconds (JVM running for 4.705)
-17:13:50.884 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:13:50.884 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:13:50.892 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
-17:20:09.134 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 5688 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:20:09.137 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:20:09.979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:20:09.982 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:20:10.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-17:20:10.681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:20:10.698 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:20:10.713 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:20:10.713 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:20:10.927 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:20:10.927 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1756 ms
-17:20:11.503 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:20:11.610 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:20:11.817 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:20:11.832 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:20:11.863 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:20:11.992 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:20:12.014 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:20:12.017 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.187 seconds (JVM running for 4.359)
-17:20:16.432 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:20:16.432 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:20:16.446 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
-17:20:16.547 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:20:31.059 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:23:39.179 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
-17:23:39.193 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:23:42.106 [http-nio-8080-exec-4] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
-17:23:42.121 [http-nio-8080-exec-5] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:23:48.696 [http-nio-8080-exec-6] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
-17:23:48.710 [http-nio-8080-exec-8] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:23:52.832 [http-nio-8080-exec-9] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
-17:23:52.848 [http-nio-8080-exec-10] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:24:26.646 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:24:39.030 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:25:11.626 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:25:18.993 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 21916 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:25:18.996 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:25:19.869 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:25:19.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:25:19.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-17:25:20.604 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:25:20.617 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:25:20.627 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:25:20.627 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:25:20.833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:25:20.833 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1793 ms
-17:25:21.881 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:25:22.025 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:25:22.217 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:25:22.230 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:25:22.259 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:25:22.452 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:25:22.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:25:22.493 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.993 seconds (JVM running for 5.054)
-17:25:22.754 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:25:22.754 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:25:22.760 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
-17:25:22.830 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:25:27.884 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:25:31.348 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:1000
-17:25:37.739 [http-nio-8080-exec-4] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:2222
-17:26:47.232 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 13860 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:26:47.240 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:26:48.123 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:26:48.125 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:26:48.154 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-17:26:48.610 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:26:48.626 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:26:48.635 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:26:48.635 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:26:48.912 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:26:48.913 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1625 ms
-17:26:49.637 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:26:49.768 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:26:49.979 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:26:49.995 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:26:50.029 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:26:50.177 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:26:50.203 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:26:50.206 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.372 seconds (JVM running for 4.509)
-17:26:54.015 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:26:54.015 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:26:54.025 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
-17:26:54.070 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
-17:26:59.703 [http-nio-8080-exec-2] INFO  c.y.w.controller.WebSocketServer - 推送消息到窗口20，推送内容:2222
-17:36:50.829 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 25348 (D:\mytest\target\classes started by Mr in D:\mytest)
-17:36:50.858 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
-17:36:51.678 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-17:36:51.680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-17:36:51.710 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-17:36:52.178 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:36:52.191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-17:36:52.199 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-17:36:52.199 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
-17:36:52.327 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-17:36:52.327 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1431 ms
-17:36:52.887 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-17:36:53.001 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:36:53.200 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-17:36:53.215 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-17:36:53.246 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-17:36:53.375 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-17:36:53.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:36:53.401 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 2.955 seconds (JVM running for 4.052)
-17:37:12.776 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:37:12.776 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:37:12.785 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
-17:37:12.832 [http-nio-8080-exec-1] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+00:27:26.280 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 52330]
+00:57:26.279 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 53123]
+01:27:26.280 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 53916]
+01:57:26.279 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 54709]
+02:27:26.280 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 55502]
+02:57:26.280 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 56295]
+03:27:26.280 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 57088]
+03:57:26.279 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 57881]
+04:27:26.280 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 58674]
+04:57:26.279 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 59467]
+05:27:26.279 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 60260]
+05:57:26.280 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 61053]
+06:27:26.279 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 61846]
+06:57:26.280 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 62639]
+07:27:26.279 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 63432]
+07:57:26.279 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 64225]
+08:27:26.279 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 65018]
+08:57:26.279 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[6 current WS(0)-HttpStream(6)-HttpPoll(0), 127 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 363], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 121], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 7, completed tasks = 65811]
+09:00:43.635 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:07:37.402 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:05.789 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:07.406 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:20.123 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:23.958 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:25.919 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:16:28.837 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+09:27:26.278 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 129 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 387], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 66439]
+09:57:26.279 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 129 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 387], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 66800]
+10:00:08.483 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:01:23.383 [http-nio-8080-exec-7] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+10:04:19.383 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:06:24.389 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:08:29.487 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:10:34.386 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:12:39.382 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:14:44.383 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:16:49.382 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:18:54.387 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:20:10.380 [http-nio-8080-exec-8] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+10:23:06.384 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:25:11.382 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:27:26.279 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(0)-HttpStream(2)-HttpPoll(0), 143 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 423], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 141], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 67264]
+10:28:32.380 [http-nio-8080-exec-5] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+10:31:28.385 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:33:33.400 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:35:38.382 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:37:43.392 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:39:00.416 [http-nio-8080-exec-3] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+10:44:01.386 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:46:06.381 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:48:11.383 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:50:16.385 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:52:21.385 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:54:26.384 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:56:31.383 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+10:57:26.279 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[4 current WS(0)-HttpStream(4)-HttpPoll(0), 157 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 459], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 153], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 5, completed tasks = 67906]
+10:57:47.378 [http-nio-8080-exec-3] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+11:11:03.484 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:05.421 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:08.419 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:21.605 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:23.533 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:25.539 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:11:26.597 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:12:41.378 [http-nio-8080-exec-3] WARN  o.s.w.s.s.t.h.DefaultSockJsService - Origin check enabled but transport 'jsonp' does not support it.
+11:15:37.386 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:17:42.383 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:18:51.649 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 20632 (D:\mytest\target\classes started by Mr in D:\mytest)
+11:18:51.651 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+11:18:53.918 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:18:53.921 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:18:53.976 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+11:18:54.959 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:18:55.003 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:55.063 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:18:55.063 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+11:18:55.218 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:18:55.219 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3499 ms
+11:18:55.854 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+11:18:55.858 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+11:18:56.313 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:18:56.336 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+11:18:56.383 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+11:18:56.785 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:18:56.809 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:18:56.852 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:18:57.034 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+11:18:57.034 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:18:57.035 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+11:18:57.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:18:57.089 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:18:57.091 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 6.375 seconds (JVM running for 8.39)
+11:18:57.492 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:57.492 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:18:57.501 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+11:19:56.383 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(1)-HttpStream(1)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 14]
+11:20:37.823 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+11:24:30.662 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 2036 (D:\mytest\target\classes started by Mr in D:\mytest)
+11:24:30.664 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+11:24:31.566 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:24:31.570 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:24:31.597 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+11:24:32.160 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:24:32.174 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:24:32.182 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:24:32.182 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+11:24:32.305 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:24:32.305 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1611 ms
+11:24:32.598 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+11:24:32.601 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+11:24:32.947 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:24:32.960 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+11:24:32.985 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+11:24:33.289 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:24:33.304 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:24:33.332 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:24:33.456 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+11:24:33.456 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:24:33.456 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+11:24:33.465 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:24:33.488 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:24:33.490 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.147 seconds (JVM running for 4.213)
+11:24:40.423 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:24:40.423 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:24:40.431 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+11:25:32.984 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 5], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 11]
+11:26:59.931 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 2668 (D:\mytest\target\classes started by Mr in D:\mytest)
+11:26:59.933 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+11:27:01.035 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:27:01.037 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:27:01.063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+11:27:01.546 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:27:01.565 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:27:01.576 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:27:01.576 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+11:27:01.870 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:27:01.875 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1911 ms
+11:27:02.245 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+11:27:02.250 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+11:27:02.775 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:27:02.791 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+11:27:02.820 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+11:27:03.115 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:27:03.130 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:27:03.162 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:27:03.291 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+11:27:03.291 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:27:03.292 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+11:27:03.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:27:03.330 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:27:03.335 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.862 seconds (JVM running for 4.986)
+11:27:09.874 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:27:09.874 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:27:09.880 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+11:28:02.818 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 4 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(4)-CONNECTED(4)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 30], outboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 8], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 11]
+11:28:23.638 [main] INFO  com.yijiankang.RedisdemoApplication - Starting RedisdemoApplication on LAPTOP-F5IOUFVB with PID 14796 (D:\mytest\target\classes started by Mr in D:\mytest)
+11:28:23.650 [main] INFO  com.yijiankang.RedisdemoApplication - No active profile set, falling back to default profiles: default
+11:28:24.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:28:24.513 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+11:28:24.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+11:28:24.964 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:28:24.977 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:28:24.986 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:28:24.986 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+11:28:25.107 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:28:25.107 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1418 ms
+11:28:25.390 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+11:28:25.393 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+11:28:25.704 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:28:25.715 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+11:28:25.740 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+11:28:26.022 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+11:28:26.037 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+11:28:26.066 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+11:28:26.176 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+11:28:26.177 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:28:26.177 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+11:28:26.185 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:28:26.204 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:28:26.206 [main] INFO  com.yijiankang.RedisdemoApplication - Started RedisdemoApplication in 3.212 seconds (JVM running for 4.347)
+11:28:40.112 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:28:40.112 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:28:40.118 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+11:29:25.739 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 6]

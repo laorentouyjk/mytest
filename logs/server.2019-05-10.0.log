@@ -1,0 +1,4 @@
+09:12:37.170 [http-nio-8080-exec-3] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为1
+09:12:37.223 [http-nio-8080-exec-4] INFO  c.y.w.controller.WebSocketServer - 有新窗口开始监听:20,当前在线人数为2
+09:13:12.831 [http-nio-8080-exec-5] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为1
+09:13:17.511 [http-nio-8080-exec-6] INFO  c.y.w.controller.WebSocketServer - 有一连接关闭！当前在线人数为0
