@@ -1,4 +1,11 @@
-package com.yijiankang.redisdemo.redisconfig;
+package com.yijiankang.redisdemo.utils;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.*;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,33 +14,25 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.HashOperations;
-import org.springframework.data.redis.core.ListOperations;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.SetOperations;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.data.redis.core.ZSetOperations;
-import org.springframework.data.redis.serializer.RedisSerializer;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
+/**
+ * @author Mr
+ * @title: RedisUtils
+ * @projectName alltest
+ * @description: TODO
+ * @date 2019/5/2111:48
+ */
 @Component
-@Service("redisUtils")
 public class RedisUtils {
 
-	@Autowired
+    @Autowired
     private RedisTemplate redisTemplate;
-	
-	@Autowired
-	private StringRedisTemplate stringRedisTemplate;
-	
-	private static Logger logger = LoggerFactory.getLogger(RedisUtils.class);  
-	
-	 /**
+
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
+    private static Logger logger = LoggerFactory.getLogger(RedisUtils.class);
+
+    /**
      * 写入缓存
      * @param key
      * @param value
@@ -50,38 +49,38 @@ public class RedisUtils {
         }
         return result;
     }
-    
+
     public List<String> getAll(){
-    	List<String> ll=new ArrayList<String>();
-    	 ValueOperations<String, Object> opsForValue = redisTemplate.opsForValue();
-    	 RedisSerializer rs=redisTemplate.getKeySerializer();
-    	 Set s=redisTemplate.keys("*");
-    	 Iterator it= s.iterator();
-    	 while(it.hasNext()){
-    		String str= (String) it.next();
-    		ll.add(str);
-    	 }
-    	 return ll;
+        List<String> ll=new ArrayList<String>();
+        ValueOperations<String, Object> opsForValue = redisTemplate.opsForValue();
+        RedisSerializer rs=redisTemplate.getKeySerializer();
+        Set s=redisTemplate.keys("*");
+        Iterator it= s.iterator();
+        while(it.hasNext()){
+            String str= (String) it.next();
+            ll.add(str);
+        }
+        return ll;
     }
-    
+
     /**
      * redis 模糊查询
      * @param key
      * @return
      */
     public List<String> getLikeKey(final String key) {
-    	List<String> ll=new ArrayList<String>();
-   	 ValueOperations<String, Object> opsForValue = redisTemplate.opsForValue();
-   	 RedisSerializer rs=redisTemplate.getKeySerializer();
-   	Set<String> keys = redisTemplate.keys(key+"*");
-   	 Iterator it= keys.iterator();
-   	 while(it.hasNext()){
-   		String str= (String) it.next();
-   		ll.add(str);
-   	 }
-   	 return ll;
+        List<String> ll=new ArrayList<String>();
+        ValueOperations<String, Object> opsForValue = redisTemplate.opsForValue();
+        RedisSerializer rs=redisTemplate.getKeySerializer();
+        Set<String> keys = redisTemplate.keys(key+"*");
+        Iterator it= keys.iterator();
+        while(it.hasNext()){
+            String str= (String) it.next();
+            ll.add(str);
+        }
+        return ll;
     }
-    
+
     /**
      * 写入缓存设置时效时间
      * @param key
@@ -148,7 +147,7 @@ public class RedisUtils {
         result = operations.get(key);
         return result;
     }
-    
+
 
 
     /**
@@ -194,36 +193,8 @@ public class RedisUtils {
         ListOperations<String, Object> list = redisTemplate.opsForList();
         return list.range(k,l,l1);
     }
-    
-/*    @SuppressWarnings({"unchecked" })
-	public boolean addList(final List<Message> map){
-    	
-    	List<String> result = (List<String>) redisTemplate.execute(new RedisCallback<List<String>>() {  
-            public List<String> doInRedis(RedisConnection connection)  
-                    throws DataAccessException {  
-                Jackson2JsonRedisSerializer serializer=new Jackson2JsonRedisSerializer(String.class);
-                
-                Gson gson = new Gson();
-                List<String> ll=new ArrayList<String>();
-        	    for(Message mes:map){  
-        	    	logger.info("开始处理报文："+mes.getContent());
-        	    	String key=String.valueOf(System.currentTimeMillis()+new Random().nextInt(2147483647));
-        	    	key=mes.getContent();
-        	    	ll.add(key);
-                	byte[] keys  = serializer.serialize(key); 
-                    byte[] name = serializer.serialize(gson.toJson(mes));  
-                    connection.setNX(keys, name);  
-        	    } 
-        	    connection.close();
-                return ll;  
-            }  
-        }, false, true);  
-        if(result!=null && result.size()>0){
-        	pubMsg(DataConstant.queue,JSONObject.toJSONString(result));
-        }
-        return true;  
-    }
-*/
+
+
     /**
      * 集合添加
      * @param key
@@ -243,7 +214,7 @@ public class RedisUtils {
         SetOperations<String, Object> set = redisTemplate.opsForSet();
         return set.members(key);
     }
-    
+
     /**
      * 集合删除
      * @param key 键值
@@ -251,8 +222,8 @@ public class RedisUtils {
      * @return
      */
     public long removeSet(String key,Object value){
-    	SetOperations<String, Object> set = redisTemplate.opsForSet();
-    	return set.remove(key,value);
+        SetOperations<String, Object> set = redisTemplate.opsForSet();
+        return set.remove(key,value);
     }
 
     /**
@@ -273,13 +244,13 @@ public class RedisUtils {
      * @param scoure1
      * @return
      */
-    public Set<Object> rangeByScore(String key,double scoure,double scoure1){
+    public Set<Object> rangeByScore(String key, double scoure, double scoure1){
         ZSetOperations<String, Object> zset = redisTemplate.opsForZSet();
         return zset.rangeByScore(key, scoure, scoure1);
     }
-    
+
     public void pubMsg(String queue,String content) {
         stringRedisTemplate.convertAndSend(queue,content);
     }
-	
+
 }
