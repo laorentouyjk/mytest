@@ -19,7 +19,7 @@ public class RabbitmqdemoApplicationTests {
     public void testProducerMq(){
         for (int i=0;i<5;i++){
             String message = "hello,this is a message"+i;
-            rabbitTemplate.convertAndSend(RabbitmqConfig.EXCHANGE_TOPICS_INFO,"queue_sms",message);
+            rabbitTemplate.convertAndSend(RabbitmqConfig.EXCHANGE_TOPICS_INFO,"queue.email.sms",message);
             System.out.println("发送的消息为"+message);
         }
     }
