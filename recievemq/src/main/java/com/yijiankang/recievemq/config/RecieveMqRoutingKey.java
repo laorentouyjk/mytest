@@ -1,35 +1,34 @@
 package com.yijiankang.recievemq.config;
 
-import com.yijiankang.rabbitmqdemo.config.RabbitmqConfig;
+import com.rabbitmq.client.Channel;
+import com.yijiankang.rabbitmqdemo.config.RabbitMqPublish;
+import com.yijiankang.rabbitmqdemo.config.RabbitMqRouingKey;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
-import org.springframework.amqp.core.Message;
-import com.rabbitmq.client.Channel;
-
-
 
 
 /**
- * @author Mr
+ * @author Mr 工作队列模式  轮询消费消息   不会有重复的消费消息
  * @title: RecieveMq
  * @projectName mytest
  * @description: TODO
  * @date 2019/5/2211:30
  */
 @Component
-public class RecieveMq {
+public class RecieveMqRoutingKey {
     //监听email队列
-    @RabbitListener(queues = {RabbitmqConfig.QUEUE_EMAIL})
+    @RabbitListener(queues = {RabbitMqRouingKey.QUEUE_EMAIL})
     public void receive_email(String msg,Message message,Channel channel){
         System.out.println("第一个"+msg+"email");
     }
-
-    @RabbitListener(queues = {RabbitmqConfig.QUEUE_EMAIL})
+/*
+    @RabbitListener(queues = {RabbitMqPublish.QUEUE_EMAIL})
     public void receive_email1(String msg,Message message,Channel channel){
         System.out.println("第二个"+msg+"email");
-    }
+    }*/
     //监听sms队列
-    @RabbitListener(queues = {RabbitmqConfig.QUEUE_SMS})
+    @RabbitListener(queues = {RabbitMqRouingKey.QUEUE_SMS})
     public void receive_sms(String msg,Message message,Channel channel){
         System.out.println(msg+"sms");
     }

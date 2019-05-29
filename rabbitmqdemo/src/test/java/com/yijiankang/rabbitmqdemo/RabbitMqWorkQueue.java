@@ -8,9 +8,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * @author Mr
+ * @title: RabbitMqWorkQueue
+ * @projectName mytest
+ * @description: TODO
+ * @date 2019/5/2410:02
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RabbitmqdemoApplicationTests {
+public class RabbitMqWorkQueue {
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
@@ -20,9 +27,8 @@ public class RabbitmqdemoApplicationTests {
         for (int i=0;i<5;i++){
             String message = "hello,this is a message"+i;
             //推送消息  指定交换机  routingkey  消息内容
-            rabbitTemplate.convertAndSend(RabbitmqConfig.EXCHANGE_TOPICS_INFO,"queue.email.sms",message);
+            rabbitTemplate.convertAndSend(RabbitmqConfig.QUEUE_EMAIL,message);
             System.out.println("发送的消息为"+message);
         }
     }
-
 }
