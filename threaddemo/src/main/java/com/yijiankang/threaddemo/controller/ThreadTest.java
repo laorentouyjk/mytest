@@ -21,14 +21,25 @@ public class ThreadTest extends Thread {
         System.out.println("id"+id+"名称"+name);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+
         ThreadTest t1 = new ThreadTest("1","张三");
 
         ThreadTest t2 = new ThreadTest("2","李四");
 
         ThreadTest t3 = new ThreadTest("3","王五");
-        t1.start();
-        t2.start();
-        t3.start();
+
+
+      //  t1.start();
+       // t1.sleep(1001);
+       // t2.start();
+        //t2.sleep(2000);
+       // t2.join();
+       // t2.yield();
+       // t3.start();
+       // t3.sleep(3000);
+       // new Thread(()-> System.out.println("多线程")).start();
+
     }
 }
