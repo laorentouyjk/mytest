@@ -14,7 +14,7 @@ public class RunnableTest implements Runnable {
     }
 
     public static void main(String[] args) {
-        RunnableTest runnableTest = new RunnableTest("1","张三");
+      /*  RunnableTest runnableTest = new RunnableTest("1","张三");
         RunnableTest runnableTest1 = new RunnableTest("2","李四");
         RunnableTest runnableTest2 = new RunnableTest("3","王五");
         Thread t1 = new Thread(runnableTest);
@@ -22,6 +22,6 @@ public class RunnableTest implements Runnable {
         Thread t3 = new Thread(runnableTest2);
         t1.start();
         t2.start();
-        t3.start();
+        t3.start();*/
     }
 }
